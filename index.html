@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Pancakes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Шапка -->
+    <header class="img-header">
+      <img class="pancakes" src="img/pancakes.jpg" alt="pancakes" />
+      <img class="notice" src="img/notice.svg" alt="notice" />
+      <button class="heart-button" aria-label="Добавить в избранное">
+        <img class="heart" src="img/heart.svg" alt="" />
+      </button>
+    </header>
+    <section class="card-content">
+      <div class="card-content__cost-payment">
+        <div class="card-content__cost-payment1">
+          <div class="card-content__cost1">
+            <p>44,50 <img class="ruble1" src="img/ruble1.svg" alt="ruble" /></p>
+          </div>
+          <div class="card-content__payment1">
+            <p>С картой</p>
+          </div>
+        </div>
+        <div class="card-content__cost-payment2">
+          <div class="card-content__cost2">
+            <p>50,50 <img class="ruble2" src="img/ruble2.svg" alt="ruble" /></p>
+          </div>
+          <div class="card-content__payment2">
+            <p>Обычная</p>
+          </div>
+        </div>
+      </div>
+        <div class="name">
+          <p>
+            Г/Ц Блинчики с мясом вес,<br>Россия
+          </p>
+        </div>
+        <form class="rating-form">
+          <div class="star-rating">
+            <input type="radio" id="star5" name="rating" value="5">
+            <label for="star5" class="star">
+              <img src="img/Star.svg" alt="star">
+            </label>
+            <input type="radio" id="star4" name="rating" value="4">
+            <label for="star4" class="star">
+              <img src="img/Star.svg" alt="star">
+            </label>
+            <input type="radio" id="star3" name="rating" value="3">
+            <label for="star3" class="star">
+              <img src="img/Star.svg" alt="star">
+            </label>
+            <input type="radio" id="star2" name="rating" value="2">
+            <label for="star2" class="star">
+              <img src="img/Star.svg" alt="star">
+            </label>
+            <input type="radio" id="star1" name="rating" value="1">
+            <label for="star1" class="star">
+              <img src="img/Star.svg" alt="star">
+            </label>
+          </div>
+        </form>
+        <div class="btn-addition">
+          <button class="btn">
+            <label>В корзину</label>
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
